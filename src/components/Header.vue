@@ -1,6 +1,7 @@
 <script setup>
 import { useAccountStore } from '@/stores/account';
 import { logout } from '@/services/accountService';
+
 const account = useAccountStore();
 
 //로그아웃
